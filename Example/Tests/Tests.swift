@@ -1,5 +1,4 @@
 import XCTest
-import TanibleView
 
 class Tests: XCTestCase {
     
