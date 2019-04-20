@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TanibleView_Example' do
+  pod 'TanibleView', :path => '../'
+
+  target 'TanibleView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

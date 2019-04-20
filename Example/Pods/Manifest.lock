@@ -1,0 +1,16 @@
+PODS:
+  - TanibleView (0.1.0)
+
+DEPENDENCIES:
+  - TanibleView (from `../`)
+
+EXTERNAL SOURCES:
+  TanibleView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TanibleView: dced8dd4f99b9c72410cddcadaa80eaaca1bd5ee
+
+PODFILE CHECKSUM: 7cb87664b30b7d8751037f446eae9ba191d334bb
+
+COCOAPODS: 1.5.2

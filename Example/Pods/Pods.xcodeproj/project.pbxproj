@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042D88ECCC2EDCEF349F4B93929436B2 /* TanibleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EDCA9DFCCB66EABC3A16259E08D6CC /* TanibleView-dummy.m */; };
+		3AFAE47CA6EF41AF6CEF0784B6A49C81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4FF59FDA9F329162138DC49DAB90D989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5DCAF714C1C1D0CBE6D63BC0095C926E /* Pods-TanibleView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CA62F0A4882D21DA50E198B1BA0046 /* Pods-TanibleView_Example-dummy.m */; };
+		778FD1F2B189606227C22004BAE646E3 /* Pods-TanibleView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1AAA2BDEA342B37417CD291CB85005 /* Pods-TanibleView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		858B03F25966A673BCED4166EDF94D97 /* Pods-TanibleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9439775053A23E71979B53215C6328A4 /* Pods-TanibleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE7C39FDC741103F21282770159D703 /* TanibleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F8359BEEE83A8DCF72C07C2610DF94 /* TanibleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C2C2F19E6B5E23010CA72E8F4CFB93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		ED52D9AE2267752E0051C1D1 /* TanibleViewDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52D9AD2267752E0051C1D1 /* TanibleViewDirection.swift */; };
+		ED52D9B02267754B0051C1D1 /* TanibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED52D9AF2267754B0051C1D1 /* TanibleView.swift */; };
+		FAFC8B5EFC2E0910002328DD2E6811E2 /* Pods-TanibleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E5BCBCC4F6EB185AC48043ADAE13 /* Pods-TanibleView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5863997F6DCA194C58FF6E53B9719C96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F89F6F33EFC3E915B3B44DC339B771;
+			remoteInfo = TanibleView;
+		};
+		95E7F6CA4D3B409364445600A0A976A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 709C582E63C2F911A71CE136F954599A;
+			remoteInfo = "Pods-TanibleView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		151E68B87CEF871009B53CC30E81C45A /* Pods-TanibleView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TanibleView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1695523F5B9AEDC7B43CB6A36BB1AD25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		170F9EF9A8E93423260E52551E289D96 /* Pods-TanibleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TanibleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1B5B93BE784CCEBB111B782EEC429227 /* TanibleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TanibleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		252334AAB6CBB21576272D7D57AD0756 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C875C549FC8C3AE36FAFB5C30D4FA2A /* TanibleView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TanibleView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30A57327CEB20B8E11F3456C763847A4 /* Pods-TanibleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TanibleView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		33CA62F0A4882D21DA50E198B1BA0046 /* Pods-TanibleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TanibleView_Example-dummy.m"; sourceTree = "<group>"; };
+		3F1EF5B81123C4B20D28B9905E94ECCD /* Pods-TanibleView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TanibleView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		458A1A4F6F97949B944352B4A99FD152 /* Pods_TanibleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TanibleView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47102F8F4BCBC3B8C5CF19DA49B9796F /* TanibleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TanibleView-prefix.pch"; sourceTree = "<group>"; };
+		4BE75E80E87810EB27D198FD9B11BCF7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F244C7FD9B5A206056BFD4CB509FAA0 /* Pods-TanibleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TanibleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		55097A999126D3669A67ED126A073C28 /* Pods-TanibleView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TanibleView_Tests.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7385949B5E45F05489F3E9EB2C35A67A /* TanibleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TanibleView.xcconfig; sourceTree = "<group>"; };
+		8DE1126ADBDC31C9CF1F6964571DC9EA /* Pods_TanibleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TanibleView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9172ED0DFCCE9A5E2E5D94290C61A4C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9439775053A23E71979B53215C6328A4 /* Pods-TanibleView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TanibleView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A29E7C5360715FDAE8F8530613BBA0C4 /* Pods-TanibleView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TanibleView_Example.modulemap"; sourceTree = "<group>"; };
+		A2EDCA9DFCCB66EABC3A16259E08D6CC /* TanibleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TanibleView-dummy.m"; sourceTree = "<group>"; };
+		ADD3E744B39B8DA6B9B838FDB589399C /* Pods-TanibleView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TanibleView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF726679C33B070482FF54E6034A9EE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B133C9A2674AD7F88D032DDDE7FB709C /* TanibleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TanibleView.modulemap; sourceTree = "<group>"; };
+		B5B75017C3F1F293C55FD0D95A84BD0C /* Pods-TanibleView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TanibleView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B5D7A9DD38F338DDA417F99EFCB128D6 /* Pods-TanibleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TanibleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BAEBEEF36D4B340F43C4EF8A5CB41AB2 /* Pods-TanibleView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TanibleView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD482A2EB7292471175760E40AEDB6EC /* Pods-TanibleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TanibleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4783BAB3986A1B82FD2E7882540C91F /* Pods-TanibleView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TanibleView_Example-resources.sh"; sourceTree = "<group>"; };
+		CC1AAA2BDEA342B37417CD291CB85005 /* Pods-TanibleView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TanibleView_Example-umbrella.h"; sourceTree = "<group>"; };
+		E4F8359BEEE83A8DCF72C07C2610DF94 /* TanibleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TanibleView-umbrella.h"; sourceTree = "<group>"; };
+		ED52D9AD2267752E0051C1D1 /* TanibleViewDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TanibleViewDirection.swift; path = TanibleView/Classes/TanibleViewDirection.swift; sourceTree = "<group>"; };
+		ED52D9AF2267754B0051C1D1 /* TanibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TanibleView.swift; path = TanibleView/Classes/TanibleView.swift; sourceTree = "<group>"; };
+		F9C2E5BCBCC4F6EB185AC48043ADAE13 /* Pods-TanibleView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TanibleView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F9C4D3E2D12221772AF5E7432AB9DE23 /* Pods-TanibleView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TanibleView_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323C966A160898C734AE0731572E9AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFAE47CA6EF41AF6CEF0784B6A49C81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697E95C1B1EF8BFBE4EE681260F09584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C2C2F19E6B5E23010CA72E8F4CFB93 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B55B8215B12EB8BDC1DCF68E349ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF59FDA9F329162138DC49DAB90D989 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0221B5418E3583794309E176E026286B /* Pods-TanibleView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9172ED0DFCCE9A5E2E5D94290C61A4C7 /* Info.plist */,
+				55097A999126D3669A67ED126A073C28 /* Pods-TanibleView_Tests.modulemap */,
+				BAEBEEF36D4B340F43C4EF8A5CB41AB2 /* Pods-TanibleView_Tests-acknowledgements.markdown */,
+				BD482A2EB7292471175760E40AEDB6EC /* Pods-TanibleView_Tests-acknowledgements.plist */,
+				F9C2E5BCBCC4F6EB185AC48043ADAE13 /* Pods-TanibleView_Tests-dummy.m */,
+				151E68B87CEF871009B53CC30E81C45A /* Pods-TanibleView_Tests-frameworks.sh */,
+				F9C4D3E2D12221772AF5E7432AB9DE23 /* Pods-TanibleView_Tests-resources.sh */,
+				9439775053A23E71979B53215C6328A4 /* Pods-TanibleView_Tests-umbrella.h */,
+				4F244C7FD9B5A206056BFD4CB509FAA0 /* Pods-TanibleView_Tests.debug.xcconfig */,
+				B5D7A9DD38F338DDA417F99EFCB128D6 /* Pods-TanibleView_Tests.release.xcconfig */,
+			);
+			name = "Pods-TanibleView_Tests";
+			path = "Target Support Files/Pods-TanibleView_Tests";
+			sourceTree = "<group>";
+		};
+		2BBCE51E2FA75E6111A116F77D9C0F0A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1695523F5B9AEDC7B43CB6A36BB1AD25 /* LICENSE */,
+				AF726679C33B070482FF54E6034A9EE2 /* README.md */,
+				2C875C549FC8C3AE36FAFB5C30D4FA2A /* TanibleView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		535C88C8EC4BAF998224778CD50D9028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				458A1A4F6F97949B944352B4A99FD152 /* Pods_TanibleView_Example.framework */,
+				8DE1126ADBDC31C9CF1F6964571DC9EA /* Pods_TanibleView_Tests.framework */,
+				1B5B93BE784CCEBB111B782EEC429227 /* TanibleView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66D00C4DBEC6B7FB3121DB543D3F10F2 /* TanibleView */ = {
+			isa = PBXGroup;
+			children = (
+				ED52D9AF2267754B0051C1D1 /* TanibleView.swift */,
+				ED52D9AD2267752E0051C1D1 /* TanibleViewDirection.swift */,
+				2BBCE51E2FA75E6111A116F77D9C0F0A /* Pod */,
+				D2D430E654D1F02D57DE2C3E5F06E8E5 /* Support Files */,
+			);
+			name = TanibleView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7475E8E79DEB5C4A3F1639124EE8AF82 /* Pods-TanibleView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4BE75E80E87810EB27D198FD9B11BCF7 /* Info.plist */,
+				A29E7C5360715FDAE8F8530613BBA0C4 /* Pods-TanibleView_Example.modulemap */,
+				3F1EF5B81123C4B20D28B9905E94ECCD /* Pods-TanibleView_Example-acknowledgements.markdown */,
+				ADD3E744B39B8DA6B9B838FDB589399C /* Pods-TanibleView_Example-acknowledgements.plist */,
+				33CA62F0A4882D21DA50E198B1BA0046 /* Pods-TanibleView_Example-dummy.m */,
+				B5B75017C3F1F293C55FD0D95A84BD0C /* Pods-TanibleView_Example-frameworks.sh */,
+				C4783BAB3986A1B82FD2E7882540C91F /* Pods-TanibleView_Example-resources.sh */,
+				CC1AAA2BDEA342B37417CD291CB85005 /* Pods-TanibleView_Example-umbrella.h */,
+				170F9EF9A8E93423260E52551E289D96 /* Pods-TanibleView_Example.debug.xcconfig */,
+				30A57327CEB20B8E11F3456C763847A4 /* Pods-TanibleView_Example.release.xcconfig */,
+			);
+			name = "Pods-TanibleView_Example";
+			path = "Target Support Files/Pods-TanibleView_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C08EB70D3FA2CDE52FB94F810202E6FD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				535C88C8EC4BAF998224778CD50D9028 /* Products */,
+				CDF94ED532814F548C6AB30CF1469C83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C08EB70D3FA2CDE52FB94F810202E6FD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66D00C4DBEC6B7FB3121DB543D3F10F2 /* TanibleView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CDF94ED532814F548C6AB30CF1469C83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7475E8E79DEB5C4A3F1639124EE8AF82 /* Pods-TanibleView_Example */,
+				0221B5418E3583794309E176E026286B /* Pods-TanibleView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D2D430E654D1F02D57DE2C3E5F06E8E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				252334AAB6CBB21576272D7D57AD0756 /* Info.plist */,
+				B133C9A2674AD7F88D032DDDE7FB709C /* TanibleView.modulemap */,
+				7385949B5E45F05489F3E9EB2C35A67A /* TanibleView.xcconfig */,
+				A2EDCA9DFCCB66EABC3A16259E08D6CC /* TanibleView-dummy.m */,
+				47102F8F4BCBC3B8C5CF19DA49B9796F /* TanibleView-prefix.pch */,
+				E4F8359BEEE83A8DCF72C07C2610DF94 /* TanibleView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TanibleView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4359E48A1C883A2BC3CD6040D8C46D65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				858B03F25966A673BCED4166EDF94D97 /* Pods-TanibleView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A5A51214F1446D245D70F7D0CAB14D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778FD1F2B189606227C22004BAE646E3 /* Pods-TanibleView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBBE50DB6EEEDF09353E39F4661685FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE7C39FDC741103F21282770159D703 /* TanibleView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		67E80847D77F7E45E5E6E26AFA656D98 /* Pods-TanibleView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD2735401EEE5DDCB307532D310DDD5 /* Build configuration list for PBXNativeTarget "Pods-TanibleView_Tests" */;
+			buildPhases = (
+				26F717927B78E0CDC12019A3645827F7 /* Sources */,
+				99B55B8215B12EB8BDC1DCF68E349ACF /* Frameworks */,
+				4359E48A1C883A2BC3CD6040D8C46D65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E47D7E9F33320758A3A3F61E525F924D /* PBXTargetDependency */,
+			);
+			name = "Pods-TanibleView_Tests";
+			productName = "Pods-TanibleView_Tests";
+			productReference = 8DE1126ADBDC31C9CF1F6964571DC9EA /* Pods_TanibleView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		709C582E63C2F911A71CE136F954599A /* Pods-TanibleView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B96862661CC175D1BDB376EF35FB57 /* Build configuration list for PBXNativeTarget "Pods-TanibleView_Example" */;
+			buildPhases = (
+				71B7BCB78EB82D688D3ADDEEFF29E53D /* Sources */,
+				323C966A160898C734AE0731572E9AE9 /* Frameworks */,
+				73A5A51214F1446D245D70F7D0CAB14D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE07C422678E972A1C46DA04E0D46110 /* PBXTargetDependency */,
+			);
+			name = "Pods-TanibleView_Example";
+			productName = "Pods-TanibleView_Example";
+			productReference = 458A1A4F6F97949B944352B4A99FD152 /* Pods_TanibleView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89F89F6F33EFC3E915B3B44DC339B771 /* TanibleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB503D338558CB51E22E992FE767DD0 /* Build configuration list for PBXNativeTarget "TanibleView" */;
+			buildPhases = (
+				1A821B26DD38FA22F45CAEC644B509E1 /* Sources */,
+				697E95C1B1EF8BFBE4EE681260F09584 /* Frameworks */,
+				CBBE50DB6EEEDF09353E39F4661685FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TanibleView;
+			productName = TanibleView;
+			productReference = 1B5B93BE784CCEBB111B782EEC429227 /* TanibleView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					709C582E63C2F911A71CE136F954599A = {
+						LastSwiftMigration = 1020;
+					};
+					89F89F6F33EFC3E915B3B44DC339B771 = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 535C88C8EC4BAF998224778CD50D9028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				709C582E63C2F911A71CE136F954599A /* Pods-TanibleView_Example */,
+				67E80847D77F7E45E5E6E26AFA656D98 /* Pods-TanibleView_Tests */,
+				89F89F6F33EFC3E915B3B44DC339B771 /* TanibleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A821B26DD38FA22F45CAEC644B509E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED52D9AE2267752E0051C1D1 /* TanibleViewDirection.swift in Sources */,
+				042D88ECCC2EDCEF349F4B93929436B2 /* TanibleView-dummy.m in Sources */,
+				ED52D9B02267754B0051C1D1 /* TanibleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26F717927B78E0CDC12019A3645827F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFC8B5EFC2E0910002328DD2E6811E2 /* Pods-TanibleView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B7BCB78EB82D688D3ADDEEFF29E53D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DCAF714C1C1D0CBE6D63BC0095C926E /* Pods-TanibleView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE07C422678E972A1C46DA04E0D46110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TanibleView;
+			target = 89F89F6F33EFC3E915B3B44DC339B771 /* TanibleView */;
+			targetProxy = 5863997F6DCA194C58FF6E53B9719C96 /* PBXContainerItemProxy */;
+		};
+		E47D7E9F33320758A3A3F61E525F924D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TanibleView_Example";
+			target = 709C582E63C2F911A71CE136F954599A /* Pods-TanibleView_Example */;
+			targetProxy = 95E7F6CA4D3B409364445600A0A976A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CC029000F30EB7FE2ECD3572A12D0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A57327CEB20B8E11F3456C763847A4 /* Pods-TanibleView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TanibleView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TanibleView_Example/Pods-TanibleView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		411043F9350D7EC5D72F857F775E7D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7385949B5E45F05489F3E9EB2C35A67A /* TanibleView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TanibleView/TanibleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TanibleView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TanibleView/TanibleView.modulemap";
+				PRODUCT_MODULE_NAME = TanibleView;
+				PRODUCT_NAME = TanibleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4693F9E903EA84D1FC25376CDCDFF750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F244C7FD9B5A206056BFD4CB509FAA0 /* Pods-TanibleView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TanibleView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TanibleView_Tests/Pods-TanibleView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C10E12D509FD88949237A7D69163489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D7A9DD38F338DDA417F99EFCB128D6 /* Pods-TanibleView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TanibleView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TanibleView_Tests/Pods-TanibleView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B70073CD3213F8F2C6A7822D431AD15B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7385949B5E45F05489F3E9EB2C35A67A /* TanibleView.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TanibleView/TanibleView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TanibleView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TanibleView/TanibleView.modulemap";
+				PRODUCT_MODULE_NAME = TanibleView;
+				PRODUCT_NAME = TanibleView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BA0EC6D1085936625646F8A46FA57EC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170F9EF9A8E93423260E52551E289D96 /* Pods-TanibleView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TanibleView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TanibleView_Example/Pods-TanibleView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB503D338558CB51E22E992FE767DD0 /* Build configuration list for PBXNativeTarget "TanibleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70073CD3213F8F2C6A7822D431AD15B /* Debug */,
+				411043F9350D7EC5D72F857F775E7D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BD2735401EEE5DDCB307532D310DDD5 /* Build configuration list for PBXNativeTarget "Pods-TanibleView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4693F9E903EA84D1FC25376CDCDFF750 /* Debug */,
+				9C10E12D509FD88949237A7D69163489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B96862661CC175D1BDB376EF35FB57 /* Build configuration list for PBXNativeTarget "Pods-TanibleView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0EC6D1085936625646F8A46FA57EC7 /* Debug */,
+				2CC029000F30EB7FE2ECD3572A12D0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

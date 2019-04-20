@@ -1,0 +1,6 @@
+framework module Pods_TanibleView_Tests {
+  umbrella header "Pods-TanibleView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

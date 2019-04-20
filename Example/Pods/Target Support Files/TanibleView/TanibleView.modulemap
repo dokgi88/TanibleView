@@ -1,0 +1,6 @@
+framework module TanibleView {
+  umbrella header "TanibleView-umbrella.h"
+
+  export *
+  module * { export * }
+}
