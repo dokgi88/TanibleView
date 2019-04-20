@@ -23,6 +23,7 @@ class TanibleViewController: UIViewController {
         tableView.direction = direction
         super.init(nibName: nil, bundle: nil)
         title = "\(direction)"
+        view.backgroundColor = .white
     }
     
     required init?(coder aDecoder: NSCoder) {
