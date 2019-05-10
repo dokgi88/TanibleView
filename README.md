@@ -1,5 +1,5 @@
 ![imgTitleLogo](https://github.com/dokgi88/dokgi88.github.io/blob/master/_images/TanibleView/imgTitleLogo.png?raw=true)
-_<p align="right"> Designed by [yoon](https://blog.naver.com/dusqkq0) </p>_
+_<p align="right"> Designed by [yoon](https://www.behance.net/dusqkq02639) </p>_
 -
 <br/>
 
