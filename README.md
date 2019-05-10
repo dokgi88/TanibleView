@@ -25,6 +25,15 @@ pod 'TanibleView'
 
 ## Example
 
+* How to reload
+```swift
+/*
+* If you want to change direction -> tableView.direction = .bottom
+* call reload after changing direction
+*/
+tableView.reload()
+```
+
 * Set animation direction
 ```swift
 /* 
