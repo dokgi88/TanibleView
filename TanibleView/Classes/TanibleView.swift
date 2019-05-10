@@ -87,4 +87,9 @@ public class TanibleView: UITableView {
         })
     }
     
+    public func reload() {
+        reloadData()
+        animatable()
+    }
+    
 }
