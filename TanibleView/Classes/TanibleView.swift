@@ -33,6 +33,8 @@ public class TanibleView: UITableView {
         animatable()
     }
     
+    // MARK: - Public Method
+    
     public func animatable(_ animationDirection: TanibleViewDirection? = nil) {
         if let direction = animationDirection {
             self.direction = direction
@@ -77,6 +79,13 @@ public class TanibleView: UITableView {
         }
     }
     
+    public func reload() {
+        reloadData()
+        animatable()
+    }
+    
+    // MARK: - Private Method
+    
     private func animatable(cell: UITableViewCell, index: Int, x: CGFloat, y: CGFloat) {
         cell.alpha = isFadeIn ? 0 : 1
         cell.transform = CGAffineTransform(translationX: x, y: y)
@@ -85,11 +94,6 @@ public class TanibleView: UITableView {
             cell.alpha = 1
             cell.transform = CGAffineTransform.identity
         })
-    }
-    
-    public func reload() {
-        reloadData()
-        animatable()
     }
     
 }
